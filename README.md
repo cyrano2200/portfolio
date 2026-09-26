@@ -2,7 +2,11 @@
 
 Portfolio site. Content is drawn from the public LinkedIn profile: [bahji-mohammed](https://www.linkedin.com/in/bahji-mohammed-b71462116/).
 
-The live site is served from a GitHub Codespace. While that codespace is running, the page is at `https://<codespace-name>-8080.app.github.dev`. Port 8080 is public. The codespace sleeps after a period of inactivity, and the address comes back when the codespace is started again.
+The live site is served from a GitHub Codespace:
+
+https://portfolio-g47g5grq99rxcw4r9-8080.app.github.dev
+
+Port 8080 is public. The codespace sleeps after about 4 hours of inactivity, and the address comes back when the codespace is started again.
 
 Salesforce application support in Casablanca — Sales Cloud, Service Cloud, security, Flow Builder, and root-cause analysis — with a longer background in customer operations, recruitment, and retail leadership.
 
