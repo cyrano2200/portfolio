@@ -1,0 +1,13 @@
+{
+  "name": "Bahji portfolio",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Portfolio",
+      "onAutoForward": "openPreview",
+      "visibility": "public"
+    }
+  },
+  "postStartCommand": "bash -lc 'nohup python3 -m http.server 8080 --bind 0.0.0.0 >/tmp/portfolio-server.log 2>&1 &'"
+}
